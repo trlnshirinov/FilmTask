@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TV Shows</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container ">
+
+            <a class="navbar-brand " href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BluTV.svg/1200px-BluTV.svg.png"
+                    alt="Bootstrap" width="80" height="24">
+            </a>
+
+
+
+            <div class="nav-links">
+                <div class="d-flex align-items-center gap-2">
+                    <li class="nav-item dropdown list-unstyled">
+                        <button class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Film
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Favoriler</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                </div>
+                <a class="nav-link text-white" href="#">Dizi</a>
+                <a class="nav-link text-white" href="#">Çocuk</a>
+                <a class="nav-link text-white" href="#">Cali Yayin</a>
+            </div>
+
+
+
+            <div class="d-flex gap-2">
+                <input class="form-control form-control-sm rounded-5" type="search" placeholder="Search"
+                    aria-label="Search" style="width: 180px;">
+                <button type="button" class="btn btn-light rounded-5 btn-oval">Ücretsiz dene</button>
+                <button type="button" class="btn btn-outline-light rounded-5 ">Giriş yap</button>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <a href="...">
+                    <img src="https://cdn.globalinfo.az/2024/09/blutv.webp" class="d-block w-100 carousel-img">
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="...">
+                    <img src="https://avatars.mds.yandex.net/i?id=57f28ff94af2438e3f19db735d5735a87bc90cfe-9882590-images-thumbs&n=13"
+                        class="d-block w-100 carousel-img">
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="...">
+                    <img src="https://via.placeholder.com/1200x600" class="d-block w-100 carousel-img">
+                </a>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <script src="java/main.js" defer></script>
+</body>
+
+</html>

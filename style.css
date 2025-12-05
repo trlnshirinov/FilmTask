@@ -1,0 +1,29 @@
+.nav-links {
+    display: flex;
+    margin-left: 5px;
+    gap: 40px;
+}
+
+
+
+.nav-link {
+    margin-top: 7px;
+}
+
+
+.carousel-inner,
+.carousel-item,
+.carousel-img {
+    height: 50vh;
+}
+
+
+.carousel-img {
+    object-fit: cover;
+}
+
+
+.navbar {
+    background-color: #2a2a2a;
+}
+
