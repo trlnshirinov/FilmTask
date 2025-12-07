@@ -29,7 +29,7 @@ function newPage() {
         const html = `
         <div class="col-md-3 mb-4">
             <div class="card h-100">
-                <img src="${show.image ? show.image.medium : 'https://via.placeholder.com/210x295'}" class="card-img-top" alt="${show.name}">
+                <img src="${show.image.original}" class="card-img-top" alt="${show.name}">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title">${show.name}</h5>
                     <p class="card-text-lang mb-1">${show.language}</p>
